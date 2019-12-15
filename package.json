@@ -1,0 +1,54 @@
+[
+        {
+                "course": {
+                        "crn ": "CUS1035",
+                        "semester": "Fall",
+                        "subject": "Computer Science",
+                        "name": "Data Structures",
+                        "professor": "Dr. Teacher",
+                        "day": "MR",
+                        "time": "10:40-12:10",
+                        "seat": "15",
+                        "type": "online"
+                }
+        },
+        {
+                "course": {
+                        "crn ": "CUS10342",
+                        "semester": "Fall",
+                        "subject": "Computer Science",
+                        "name": "Web Design",
+                        "professor": "Chris",
+                        "day": "TF",
+                        "time": "10:40-12:10",
+                        "seat": "15",
+                        "type": "online"
+                }
+        },
+        {
+                "course": {
+                        "crn ": "CUS13403",
+                        "semester": "Spring",
+                        "subject": "Cyber Security",
+                        "name": "Cyber",
+                        "professor": "Dr. Professor",
+                        "day": "W",
+                        "time": "10:40-12:10",
+                        "seat": "10",
+                        "type": "Queens"
+                }
+        },
+        {
+                "course": {
+                        "crn ": "CUS14505",
+                        "semester": "Spring",
+                        "subject": "Computer Science",
+                        "name": "Data Structures",
+                        "professor": "Adam",
+                        "day": "TF",
+                        "time": "10:40-12:10",
+                        "seat": "15",
+                        "type": "hybrid"
+                }
+        }
+]
