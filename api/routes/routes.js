@@ -7,15 +7,24 @@ module.exports = function(app) {
   // Routes
 
 //CRN lookup
-app.get('/get/crn/:key',function(req,res){
-var course = courses.filter(function(val){
-  return val.crn === req.params.crn;
-});
-res.send(course);
+app.get('/get/crn/:word', searchWord);
 
- console.log("success");
-
-});
+function searchWord (req,res){
+  var word = request.params.word;
+  var reply;
+  if (data[word]){
+    reply = {
+      status: "found",
+      word: word,
+      score: data[word]
+    }
+  }else{
+    reply= {
+      status: "not found",
+      word: word
+    }
+  }
+}
 
 
 //Title Lookup
