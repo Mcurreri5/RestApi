@@ -7,58 +7,67 @@ module.exports = function(app) {
   // Routes
 
 //CRN lookup
-app.get('/get/crn/:word', searchWord);
+app.get('/get/crnn/:word', showCrn);
 
-function searchWord (req,res){
-  var word = request.params.word;
-  var reply;
-  if (data[word]){
-    reply = {
-      status: "found",
-      word: word,
-      score: data[word]
-    }
-  }else{
-    reply= {
-      status: "not found",
-      word: word
+function showCrn(req, res) {
+  var word = req.params['word'];
+
+  for (var i = 0; i < courses.length; i++) {
+    var crn = courses[i].course.crn.stringify();
+    if (crn.includes(word)) {
+      var course = courses[i].course;
     }
   }
+  res.send(course);
+
 }
+
+app.get('/get/crn/:word',function(req,res){
+var course = courses.filter(function(val){
+  return val.crn === req.params;
+});
+res.send(course);
+
+ console.log("success");
+
+});
 
 
 //Title Lookup
-app.get('/get/title/:key',function(req,res){
-var course = courses.filter(function(val){
-  return val.name === req.params.name;
-});
-res.send(course);
+app.get('/get/title/:word', showTitle);
 
- console.log("success");
+function showTitle(req, res) {
+  var word = req.params['word'];
 
-});
+  for (var i = 0; i < courses.length; i++) {
+    if (courses[i].course.name === word) {
+      var course = courses[i].course;
+    }
+  }
+  res.send(course);
+
+}
 
 //instructer Lookup
-app.get('/get/prof/:key',function(req,res){
-var course = courses.filter(function(val){
-  return val.professor === req.params.professor;
-});
-res.send(course);
+app.get('/get/prof/:word', showOne);
 
- console.log("success");
+function showOne(req, res) {
+  var word = req.params['word'];
 
-});
+  for (var i = 0; i < courses.length; i++) {
+    if (courses[i].course.professor === word) {
+      var course = courses[i].course;
+    }
+  }
+  res.send(course);
+
+}
 
 //day Lookup
-app.get('/get/day/:key',function(req,res){
-var course = courses.filter(function(val){
-  return val.day === req.params.day;
-});
-res.send(course);
-
- console.log("success");
-
-});
+app.get('/all',sendAll);
+function sendAll(request,response){
+  response.send(courses)
+}
 
 //time Lookup
 app.get('/get/time/:key',function(req,res){
