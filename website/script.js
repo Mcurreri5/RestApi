@@ -2,7 +2,7 @@
 var courses = [];
 var search = [];
 
-function course(crn, semester, credits, name, prof, day, time, type, temp) {
+function course(crn, semester, credits, name, prof, day, time, type, temp, seat) {
   this.crn = crn;
   this.semester = semester;
   this.credits = credits;
@@ -12,6 +12,7 @@ function course(crn, semester, credits, name, prof, day, time, type, temp) {
   this.time = time;
   this.type = type;
   this.temp = temp;
+  this.seat = seat;
 }
 
 function empty(){
@@ -43,8 +44,9 @@ console.log(data);
    var time = data[i].course.time;
    var type = data[i].course.type;
    var temp = data[i].course.temp;
+   var seat = data[i].course.seat;
 
-   var temp = new course(crn, semester, credits, name, prof, day, time, type, temp);
+   var temp = new course(crn, semester, credits, name, prof, day, time, type, temp, seat);
    courses.push(temp);
  }
  //search
@@ -153,6 +155,14 @@ for (var i = 0; i < search.length; i++) {
   var innerCredits = document.createElement('div');
      innerCredits.id = (search[i].credits + i);
      iDiv.appendChild(innerCredits);
+  //seats div
+     var innerSeat = document.createElement('div');
+        innerSeat.id = (search[i].seat + i);
+        iDiv.appendChild(innerSeat);
+//code div
+        var innerTemp = document.createElement('div');
+           innerTemp.id = (search[i].temp + i);
+           iDiv.appendChild(innerTemp);
 
 
 
@@ -172,7 +182,8 @@ for (var i = 0; i < courses.length; i++) {
   document.getElementById(search[i].prof + i).innerHTML= search[i].prof;
   document.getElementById(search[i].type + i).innerHTML= search[i].type;
   document.getElementById(search[i].credits + i).innerHTML= "Credits: " + search[i].credits;
-
+  document.getElementById(search[i].seat + i).innerHTML= "Seats available: " + search[i].seat;
+  document.getElementById(search[i].temp + i).innerHTML= "CRN: " + search[i].temp;
 
 }
 

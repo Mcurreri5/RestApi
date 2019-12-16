@@ -9,7 +9,8 @@
         "day" : "TF",
         "time" : "1350-1515",
         "professor" : "Christina Schweikert",
-        "type": "lecture"
+        "type": "lecture",
+        "seat" : "1"
           }},
 
         {
@@ -22,8 +23,9 @@
         "day" : "W",
         "time" : "1040-1330",
         "professor" : "Simina Fluture",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "1"
+          }},
 
         {
         "course":{
@@ -35,8 +37,9 @@
         "day" : "TF",
         "time" : "0905-1030",
         "professor" : "Jun Wu",
-        "type": "lec-lab"
-              }},
+        "type": "lec-lab",
+        "seat" : "3"
+          }},
 
         {
         "course":{
@@ -48,8 +51,9 @@
         "day" : "MR",
         "time" : "1040-1205",
         "professor" : "Joan Debello",
-        "type": "lec-lab"
-              }},
+        "type": "lec-lab",
+        "seat" : "1"
+          }},
 
         {
         "course":{
@@ -61,8 +65,9 @@
         "day" : "MR",
         "time" : "0905-1030",
         "professor" : "Joan Debello",
-        "type": "lec-lab"
-              }},
+        "type": "lec-lab",
+        "seat" : "1"
+          }},
 
         {
         "course":{
@@ -74,8 +79,9 @@
         "day" : "MR",
         "time" : "1215-1340",
         "professor" : "Anne Smith-Thompson",
-        "type": "lec-lab"
-              }},
+        "type": "lec-lab",
+        "seat" : "4"
+          }},
 
         {
         "course":{
@@ -87,8 +93,9 @@
         "day" : "MR",
         "time" : "0905-1030",
         "professor" : "Anne Smith-Thompson",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "4"
+          }},
 
         {
         "course":{
@@ -100,8 +107,9 @@
         "day" : "W",
         "time" : "1350-1640",
         "professor" : "Jun Wun",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "16"
+          }},
 
         {
         "course":{
@@ -113,8 +121,9 @@
         "day" : "TF",
         "time" : "0905-1030",
         "professor" : "Fazel Keshtkar",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "1"
+          }},
 
         {
         "course":{
@@ -126,8 +135,9 @@
         "day" : "W",
         "time" : "1350-1640",
         "professor" : "Charles Edeki",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "3"
+          }},
 
         {
         "course":{
@@ -139,8 +149,9 @@
         "day" : "MR",
         "time" : "1525-1650",
         "professor" : "Charles Edeki",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "13"
+          }},
 
         {
         "course":{
@@ -152,8 +163,9 @@
         "day" : "TF",
         "time" : "1040-1205",
         "professor" : "Fazel Keshtkar",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "13"
+          }},
 
         {
         "course":{
@@ -165,8 +177,9 @@
         "day" : "MR",
         "time" : "1040-1205",
         "professor" : "Bonnie MacKellar",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "17"
+          }},
 
         {
         "course":{
@@ -177,9 +190,10 @@
         "credits": "3",
         "day" : "TF",
         "time" : "1350-1515",
-        "professor" : "Syed Ahmad ChanBukhari",
-        "type": "lecture"
-            }},
+        "professor" : "Syed Ahmad Chan Bukhari",
+        "type": "lecture",
+        "seat" : "5"
+          }},
 
         {
         "course":{
@@ -191,8 +205,9 @@
         "day" : "M",
         "time" : "1525-1650",
         "professor" : "Ronald Sklar",
-        "type": "hybrid"
-            }},
+        "type": "hybrid",
+        "seat" : "10"
+          }},
 
         {
         "course":{
@@ -204,8 +219,9 @@
         "day" : "T",
         "time" : "1700-1825",
         "professor" : "Ronald Sklar",
-        "type": "hybrid"
-            }},
+        "type": "hybrid",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -217,8 +233,9 @@
         "day" : "TF",
         "time" : "1215-1340",
         "professor" : "Christina Schweikert",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -230,8 +247,9 @@
         "day" : "TF",
         "time" : "1910-2110",
         "professor" : "Nikhil Yadav",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -243,8 +261,9 @@
         "day" : "MR",
         "time" : "0905-1030",
         "professor" : "Richard Scorce",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -256,8 +275,9 @@
         "day" : "W",
         "time" : "1040-1330",
         "professor" : "Bonnie MacKellar",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "4"
+          }},
 
         {
         "course":{
@@ -269,8 +289,9 @@
         "day" : "MR",
         "time" : "1215-1340",
         "professor" : "Richard Scorce",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -282,8 +303,9 @@
         "day" : "W",
         "time" : "1350-1640",
         "professor" : "Christoforos Christoforou",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "5"
+          }},
 
         {
         "course":{
@@ -295,8 +317,9 @@
         "day" : "MR",
         "time" : "0730-0855",
         "professor" : "Richard Scorce",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "1"
+          }},
 
         {
         "course":{
@@ -308,8 +331,9 @@
         "day" : "TF",
         "time" : "0730-0855",
         "professor" : "Nikhil Yadav",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "2"
+          }},
 
         {
         "course":{
@@ -321,8 +345,9 @@
         "day" : "MR",
         "time" : "1040-1205",
         "professor" : "Christoforos Christoforou",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -334,8 +359,9 @@
         "day" : "TF",
         "time" : "0905-1030",
         "professor" : "Nikhil Yadav",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "1"
+          }},
 
         {
         "course":{
@@ -347,8 +373,9 @@
         "day" : "T",
         "time" : "1700-1950",
         "professor" : "Ronald Fechter",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "19"
+          }},
 
         {
         "course":{
@@ -360,21 +387,9 @@
         "day" : "T",
         "time" : "1700-1900",
         "professor" : "Christoforos Christoforou",
-        "type": "lecture"
-            }},
-
-        {
-        "course":{
-        "semester" : "Fall",
-        "crn" : "CUS1191",
-        "temp" : "70049",
-        "name" : "COMPUTER SCIENCE INTERNSHIP",
-        "credits": "3",
-        "day" : "T",
-        "time" : "1700-1900",
-        "professor" : "Christoforos Christoforou",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -386,8 +401,9 @@
         "day" : "MR",
         "time" : "0905-1030",
         "professor" : "Geoffrey Dick",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "13"
+          }},
 
         {
         "course":{
@@ -399,8 +415,9 @@
         "day" : "TF",
         "time" : "1700-1825",
         "professor" : "William Malone",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -412,8 +429,9 @@
         "day" : "TF",
         "time" : "1215-1340",
         "professor" : "Joseph Achtziger",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "2"
+          }},
 
         {
         "course":{
@@ -425,8 +443,9 @@
         "day" : "W",
         "time" : "1910-2200",
         "professor" : "Maureen Henry",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "6"
+          }},
 
         {
         "course":{
@@ -438,8 +457,9 @@
         "day" : "MR",
         "time" : "0905-1030",
         "professor" : "Janet Cerulli",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -451,8 +471,9 @@
         "day" : "TF",
         "time" : "1215-1340",
         "professor" : "Thomas Cerulli",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -464,8 +485,9 @@
         "day" : "S",
         "time" : "0830-1120",
         "professor" : "Joseph Achtziger",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "5"
+          }},
 
         {
         "course":{
@@ -477,8 +499,9 @@
         "day" : "TF",
         "time" : "0905-1030",
         "professor" : "Kathleen Holliday",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "1"
+          }},
 
         {
         "course":{
@@ -490,8 +513,9 @@
         "day" : "TF",
         "time" : "1215-1340",
         "professor" : "Kathleen Holliday",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "4"
+          }},
 
         {
         "course":{
@@ -503,8 +527,9 @@
         "day" : "R",
         "time" : "1700-1950",
         "professor" : "Hector Chakraborty",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "20"
+          }},
 
         {
         "course":{
@@ -516,8 +541,9 @@
         "day" : "M",
         "time" : "1700-1950",
         "professor" : "Abdel Aziz Elmrini",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "7"
+          }},
 
         {
         "course":{
@@ -529,8 +555,9 @@
         "day" : "TF",
         "time" : "1040-1205",
         "professor" : "Michael Manley",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "4"
+          }},
 
         {
         "course":{
@@ -542,8 +569,9 @@
         "day" : "TF",
         "time" : "0905-1030",
         "professor" : "Michael Manley",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "3"
+          }},
 
         {
         "course":{
@@ -555,8 +583,9 @@
         "day" : "TF",
         "time" : "0905-1030",
         "professor" : "Peter Laneri",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -568,8 +597,9 @@
         "day" : "TF",
         "time" : "0730-0855",
         "professor" : "Peter Laneri",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -581,8 +611,9 @@
         "day" : "T",
         "time" : "1700-1950",
         "professor" : "Hector Chakraborty",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "1"
+          }},
 
         {
         "course":{
@@ -594,8 +625,9 @@
         "day" : "TF",
         "time" : "1525-1650",
         "professor" : "Michael Vaisfeld",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "9"
+          }},
 
         {
         "course":{
@@ -607,9 +639,9 @@
         "day" : "TF",
         "time" : "1350-1515",
         "professor" : "Linda Mollo-Holmes",
-        "type": "lecture"
-            }},
-
+        "type": "lecture",
+        "seat" : "1"
+          }},
         {
         "course":{
         "semester" : "Fall",
@@ -620,9 +652,9 @@
         "day" : "TF",
         "time" : "1215-1340",
         "professor" : "Linda Mollo-Holmes",
-        "type": "lecture"
-            }},
-
+        "type": "lecture",
+        "seat" : "1"
+          }},
         {
         "course":{
         "semester" : "Fall",
@@ -633,8 +665,9 @@
         "day" : "TF",
         "time" : "1525-1650",
         "professor" : "Abdel Aziz Elmrini",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -646,8 +679,9 @@
         "day" : "TF",
         "time" : "1040-1205",
         "professor" : "Gerald Latzman",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "1"
+          }},
 
         {
         "course":{
@@ -659,8 +693,9 @@
         "day" : "W",
         "time" : "0730-1020",
         "professor" : "Frank Servas",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "6"
+          }},
 
         {
         "course":{
@@ -672,8 +707,9 @@
         "day" : "T",
         "time" : "0905-1030",
         "professor" : "Frank Servas",
-        "type": "hybrid"
-            }},
+        "type": "hybrid",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -685,9 +721,9 @@
         "day" : "T",
         "time" : "1040-1205",
         "professor" : "Frank Servas",
-        "type": "hybrid"
-            }},
-
+        "type": "hybrid",
+        "seat" : "4"
+          }},
         {
         "course":{
         "semester" : "Fall",
@@ -698,8 +734,9 @@
         "day" : "R",
         "time" : "1700-1950",
         "professor" : "Satyanand Singh",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -711,8 +748,9 @@
         "day" : "W",
         "time" : "1700-1825",
         "professor" : "Ronald Fechter",
-        "type": "hybrid"
-            }},
+        "type": "hybrid",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -724,8 +762,9 @@
         "day" : "TF",
         "time" : "0730-0855",
         "professor" : "Marist Brothers McCauley",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "12"
+          }},
 
         {
         "course":{
@@ -737,8 +776,9 @@
         "day" : "MR",
         "time" : "0730-0855",
         "professor" : "Marist Brothers McCauley",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "4"
+          }},
 
         {
         "course":{
@@ -750,8 +790,9 @@
         "day" : "MR",
         "time" : "1525-1650",
         "professor" : "Satyanand Singh",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "1"
+          }},
 
         {
         "course":{
@@ -763,8 +804,9 @@
         "day" : "TF",
         "time" : "1350-1515",
         "professor" : "Janet Cerulli",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "4"
+          }},
 
         {
         "course":{
@@ -775,9 +817,10 @@
         "credits": "3",
         "day" : "W",
         "time" : "1040-1330",
-        "professor" : "Syed Ahmad ChanBukhari",
-        "type": "lecture"
-            }},
+        "professor" : "Syed Ahmad Chan Bukhari",
+        "type": "lecture",
+        "seat" : "16"
+          }},
 
         {
         "course":{
@@ -789,8 +832,9 @@
         "day" : "W",
         "time" : "1040-1330",
         "professor" : "Bonnie MacKellar",
-        "type": "lecture"
-            }},
+        "type": "lecture",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -802,8 +846,9 @@
         "day" : "W",
         "time" : "0730-1020",
         "professor" : "Maxine Greenidge",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "3"
+          }},
 
         {
         "course":{
@@ -815,8 +860,9 @@
         "day" : "S",
         "time" : "0830-1120",
         "professor" : "John Rullan",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "9"
+          }},
 
         {
         "course":{
@@ -828,8 +874,9 @@
         "day" : "S",
         "time" : "1230-1520",
         "professor" : "Felix Fischman",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "4"
+          }},
 
         {
         "course":{
@@ -841,8 +888,9 @@
         "day" : "MR",
         "time" : "1215-1340",
         "professor" : "Juan Otero",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -854,8 +902,9 @@
         "day" : "TF",
         "time" : "1215-1340",
         "professor" : "Erald Troja",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -867,8 +916,9 @@
         "day" : "W",
         "time" : "1700-1950",
         "professor" : "Dick Geoffrey",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "3"
+          }},
 
         {
         "course":{
@@ -880,8 +930,9 @@
         "day" : "F",
         "time" : "1040-1205",
         "professor" : "Suzanna Schmeelk",
-        "type": "hybrid"
-            }},
+        "type": "hybrid",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -893,8 +944,9 @@
         "day" : "W",
         "time" : "1350-1640",
         "professor" : "Erald Troja",
-        "type": "lec-lab"
-            }},
+        "type": "lec-lab",
+        "seat" : "0"
+          }},
 
         {
         "course":{
@@ -906,6 +958,7 @@
         "day" : "TF",
         "time" : "1040-1205",
         "professor" : "Erald Troja",
-        "type": "lec-lab"
-            }}
+        "type": "lec-lab",
+        "seat" : "7"
+          }}
 ]
